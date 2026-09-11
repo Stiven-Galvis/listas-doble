@@ -1,3 +1,5 @@
+import sun.jvm.hotspot.debugger.Page;
+
 public class DoubleNode {
     DoubleNode anterior;
     Object dato;
@@ -8,6 +10,5 @@ public class DoubleNode {
         this.dato = dato;
         this.siguiente = null;
     }
-
-
 }
+

@@ -42,8 +42,8 @@ public interface ListInterface {
 
     public Object[] toArray(Object[] object);
 
-    public MiListaDoble subList(DoubleNode from, DoubleNode to);
+    public MiListaDouble subList(DoubleNode from, DoubleNode to);
 
-    public MiListaDoble sortList();
+    public MiListaDouble sortList();
 
 }
