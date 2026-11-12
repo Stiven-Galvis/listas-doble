@@ -1,7 +1,5 @@
 import java.util.Iterator;
-
 public interface ListInterface {
-
     /*
     essential operations
     */
@@ -42,8 +40,8 @@ public interface ListInterface {
 
     public Object[] toArray(Object[] object);
 
-    public MiListaDouble subList(DoubleNode from, DoubleNode to);
+    public MiListaDoble subList(DoubleNode from, DoubleNode to);
 
-    public MiListaDouble sortList();
+    public MiListaDoble sortList();
 
 }
